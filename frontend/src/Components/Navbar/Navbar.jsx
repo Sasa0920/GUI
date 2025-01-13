@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Navbar.css'
-import profile_icon from '../Assets/profile_icon.png'
 import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
@@ -16,8 +15,8 @@ export const Navbar = () => {
 
       </ul>
       <div className="nav-login-cart">
-      <Link to='/loginsignup'><button>Login</button></Link>
-      <Link to='/profile'>< img className="navbar-image" src={profile_icon} alt=""/></Link>
+      <Link to='/loginsignup'><button>Get Started</button></Link>
+      
       </div>
     </div>
   )

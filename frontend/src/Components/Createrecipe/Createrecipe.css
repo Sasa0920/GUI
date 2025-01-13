@@ -1,13 +1,14 @@
-.hero {
-  width: 210vh;
+.createrecipe {
   height: 100vh;
   background: linear-gradient(180deg,rgb(196, 248, 196),#e1ffea22 60%);
   display: flex;
   justify-content: center;
   
+  
+ 
 }
-.hero img{
-  width: 210vh;
+.createrecipe img{
+  width: 200vh;
   height: 90vh;
   margin-top: 0%;
   display: block;
@@ -16,10 +17,10 @@
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
 }
 
-.overlay-text2 {
+.overlay-text1 {
   position: absolute;
   top: 60%;
-  left: 82%;
+  left: 97%;
   transform: translate(-50%, -50%);
   color: black; 
   font-size: 70px;
@@ -30,4 +31,3 @@
   display: flex;
 
 }
-

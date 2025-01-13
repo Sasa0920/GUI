@@ -1,28 +1,13 @@
 import React from 'react'
 import './Hero.css'
-import hand from '../Assets/hand.png'
-import girl from '../Assets/girl.jpg'
+import background8 from '../Assets/background8.jpg'
 
 export const Hero = () => {
   return (
-    <div className='hero'>
-      <div className="hero-left">
-        <div>
-          <div className="hero-hand-icon">
-            <p>Start</p>
-            <img src={hand} alt=""/>
-          </div>
-          <p>Building</p>
-          <p>Your Recipes</p>
-          
-        </div>
-        
-
-      </div>
-      <div className="hero-right">
-        <img src={girl} alt=""/>
-
-      </div>
-
-    </div> )
+    <div className="hero">
+     <img src={background8} alt="" />
+     <p className="overlay-text2">Start Building <br/>Your TasteBook </p>
+     
+    </div>
+     )
 }

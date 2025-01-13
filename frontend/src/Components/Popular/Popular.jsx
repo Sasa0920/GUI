@@ -11,10 +11,10 @@ export const Popular = () => {
       <h1>POPULAR RECIPES</h1>
       <hr/>
       <div className="popular-recipe">
-        <img src={prown_salad} alt="" />
-        <img src={chicken_ramen_noodle} alt="" />
-        <img src={friedrice} alt="" />
-        <img src={cheesepizza} alt="" />
+        <img src={prown_salad} alt=""/>
+        <img src={chicken_ramen_noodle} alt=""/>
+        <img src={friedrice} alt=""/>
+        <img src={cheesepizza} alt=""/> 
       </div>
       <div className="text">
       <p>Prown Salad</p>

@@ -1,0 +1,45 @@
+.Favo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ 
+  
+  
+}
+.Favo-images1{
+  display: flex;
+  gap: 140px;
+}
+.Favo-images1 img{
+  width: 230px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+.Favo-images1 img:hover {
+  transform: translateY(-30px); 
+}
+
+.Favo-text1{
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+.Favo-images2{
+  display: flex;
+  gap: 140px;
+}
+.Favo-images2 img{
+  width: 230px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+.Favo-images2 img:hover {
+  transform: translateY(-30px); 
+}
+.Favo-text2{
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}

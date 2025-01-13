@@ -1,13 +1,13 @@
-.hero {
-  width: 210vh;
+.favourite {
   height: 100vh;
   background: linear-gradient(180deg,rgb(196, 248, 196),#e1ffea22 60%);
   display: flex;
   justify-content: center;
   
+ 
 }
-.hero img{
-  width: 210vh;
+.favourite img{
+  width: 200vh;
   height: 90vh;
   margin-top: 0%;
   display: block;
@@ -15,19 +15,15 @@
   -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
 }
-
-.overlay-text2 {
+.overlay-text {
   position: absolute;
   top: 60%;
-  left: 82%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: black; 
   font-size: 70px;
   font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: text shadow */
   text-align: center;
   width: 100%;
-  display: flex;
-
 }
-
