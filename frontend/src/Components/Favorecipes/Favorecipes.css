@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
- 
-  
+  height: auto;
   
 }
 .Favo-images1{
@@ -20,11 +19,34 @@
 .Favo-images1 img:hover {
   transform: translateY(-30px); 
 }
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button button{
+  background-color: #abe4bc;
+  color: rgb(48, 42, 42);
+  width: 90px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-inline: 140px;
+  margin-block-end: 30px;
+  margin-top: 20px;
+}
+.button button:active{
+  background: #6c9a7a22;
+}
 
 .Favo-text1{
   display: flex;
   flex-direction: row;
   gap: 250px;
+  align-items: center;
+  justify-content: center;
 }
 .Favo-images2{
   display: flex;

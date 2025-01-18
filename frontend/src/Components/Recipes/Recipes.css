@@ -1,6 +1,7 @@
 .recipes-list{
   display: flex;
   background-color: #6c9a7a22;
+  height: auto;
 
 }
 .recipes-list-images{
@@ -11,12 +12,12 @@
   padding-left: 300px;
   padding-bottom: 50px;
   align-items: left;
-  gap: 10px;
+  gap: 20px;
   
 }
 .recipes-list-images img{
-  width: 350px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
   transition: transform 0.3s ease-in-out;
  
 }

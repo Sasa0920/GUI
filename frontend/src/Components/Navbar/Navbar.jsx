@@ -15,8 +15,9 @@ export const Navbar = () => {
 
       </ul>
       <div className="nav-login-cart">
-      <Link to='/loginsignup'><button>Get Started</button></Link>
-      
+        {localStorage.getItem('auth-token')
+        ?<button onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</button>
+        :<Link to='/loginsignup'><button>Get Started</button></Link>}
       </div>
     </div>
   )
