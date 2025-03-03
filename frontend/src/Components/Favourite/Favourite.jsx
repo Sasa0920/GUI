@@ -7,7 +7,7 @@ export const Favourite = () => {
   return (
     <div className="favourite">
      <img src={background6} alt="" />
-     <p className="overlay-text">Add Your Favorite Recipes</p>
+     <p className="overlay-text">Add Your Favourite Recipes</p>
     </div>
   )
 }

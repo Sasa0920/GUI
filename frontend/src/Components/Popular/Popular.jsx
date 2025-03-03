@@ -17,7 +17,7 @@ export const Popular = () => {
         <img src={cheesepizza} alt=""/> 
       </div>
       <div className="text">
-      <p>Prown Salad</p>
+      <p>Prawn Salad</p>
       <p>Ramen Noodles</p>
       <p>Fried Rice</p>
       <p>Cheese Pizza</p>

@@ -92,12 +92,12 @@ const handleSubmit = async(e) => {
             <input type="file" id="image" name="image" onChange={handleImage} accept="image/*" required/>
           </div>
           <div className="form-group">
-            <label htmlFor="ingredients">Ingredients and Preparation</label>
+            <label htmlFor="ingredients">Ingredients</label>
             <textarea id="ingredients" name="ingredients" rows="5" value={formData.ingredients} onChange={handleChange} required></textarea>
           </div>
 
           <div className="form-group">
-            <label htmlFor="instructions">Ingredients and Preparation</label>
+            <label htmlFor="instructions">Instructions</label>
             <textarea id="instructions" name="instructions" rows="5" value={formData.instructions} onChange={handleChange} required></textarea>
           </div>
           <button type="submit">Create Recipe</button>
