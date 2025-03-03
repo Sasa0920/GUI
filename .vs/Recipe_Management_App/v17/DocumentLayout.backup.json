@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\mongodb_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\mongodb_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\myrecipepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\myrecipepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\favouritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\favouritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\myrecipepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\myrecipepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\favouritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\favouritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\getstartedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\getstartedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\tastebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\tastebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\createrecipepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\createrecipepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\tastebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\tastebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\recipe_management_app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\recipe_management_app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|c:\\users\\sasan\\onedrive\\desktop\\desktop application\\recipe_management_app\\recipe_management_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8767A111-56A7-4C7F-8A2B-D33C3BFB402A}|Recipe_Management_App\\Recipe_Management_App.csproj|solutionrelative:recipe_management_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MongoDB_Connection.cs",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\MongoDB_Connection.cs",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\MongoDB_Connection.cs",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\MongoDB_Connection.cs",
+              "RelativeToolTip": "Recipe_Management_App\\MongoDB_Connection.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:28:26.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyRecipePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\MyRecipePage.xaml.cs",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\MyRecipePage.xaml.cs",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\MyRecipePage.xaml.cs",
+              "RelativeToolTip": "Recipe_Management_App\\MyRecipePage.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:41:33.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyRecipePage.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\MyRecipePage.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\MyRecipePage.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\MyRecipePage.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\MyRecipePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T05:07:52.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\Recipe.cs",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\Recipe.cs",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\Recipe.cs",
+              "RelativeToolTip": "Recipe_Management_App\\Recipe.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:48:08.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FavouritesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\FavouritesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\FavouritesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\FavouritesPage.xaml.cs",
+              "RelativeToolTip": "Recipe_Management_App\\FavouritesPage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:46:00.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FavouritesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\FavouritesPage.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\FavouritesPage.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\FavouritesPage.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\FavouritesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T05:08:21.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateRecipePage.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\CreateRecipePage.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\CreateRecipePage.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\CreateRecipePage.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\CreateRecipePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T05:07:06.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\HomePage.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T05:05:02.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TasteBook.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\TasteBook.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\TasteBook.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\TasteBook.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\TasteBook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T18:12:28.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Recipe_Management_App.csproj",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\Recipe_Management_App.csproj",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\Recipe_Management_App.csproj",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\Recipe_Management_App.csproj",
+              "RelativeToolTip": "Recipe_Management_App\\Recipe_Management_App.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T06:47:45.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TasteBook.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\TasteBook.xaml.cs",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\TasteBook.xaml.cs",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\TasteBook.xaml.cs",
+              "RelativeToolTip": "Recipe_Management_App\\TasteBook.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:13:20.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetStartedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\GetStartedPage.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\GetStartedPage.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\GetStartedPage.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\GetStartedPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T05:08:56.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\HomePage.xaml.cs",
+              "RelativeToolTip": "Recipe_Management_App\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:39:18.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\App.xaml",
+              "RelativeDocumentMoniker": "Recipe_Management_App\\App.xaml",
+              "ToolTip": "C:\\Users\\sasan\\OneDrive\\Desktop\\Desktop application\\Recipe_Management_App\\Recipe_Management_App\\App.xaml",
+              "RelativeToolTip": "Recipe_Management_App\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T18:08:38.94Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

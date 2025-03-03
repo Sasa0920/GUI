@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background6.jpg" />
+    <None Remove="Images\background7.jpg" />
+    <None Remove="Images\background8.jpg" />
+    <None Remove="Images\cheesepizza.jpg" />
+    <None Remove="Images\chef1.png" />
+    <None Remove="Images\chicken_ramen_noodle.jpg" />
+    <None Remove="Images\favo1.jpg" />
+    <None Remove="Images\favo2.jpg" />
+    <None Remove="Images\favo3.jpg" />
+    <None Remove="Images\favo4.jpg" />
+    <None Remove="Images\favo5.jpg" />
+    <None Remove="Images\favo6.jpg" />
+    <None Remove="Images\friedrice.jpg" />
+    <None Remove="Images\instagram_icon.png" />
+    <None Remove="Images\nasigoreng.jpg" />
+    <None Remove="Images\noodles.jpg" />
+    <None Remove="Images\Pizza.jpg" />
+    <None Remove="Images\prown_salad.jpg" />
+    <None Remove="Images\roti.jpg" />
+    <None Remove="Images\soup.jpg" />
+    <None Remove="Images\watsapp_icon.png" />
+    <None Remove="Images\youtube_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Recipe_Management_App.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background6.jpg" />
+    <Resource Include="Images\background7.jpg" />
+    <Resource Include="Images\background8.jpg" />
+    <Resource Include="Images\cheesepizza.jpg" />
+    <Resource Include="Images\chef1.png" />
+    <Resource Include="Images\chicken_ramen_noodle.jpg" />
+    <Resource Include="Images\favo1.jpg" />
+    <Resource Include="Images\favo2.jpg" />
+    <Resource Include="Images\favo3.jpg" />
+    <Resource Include="Images\favo4.jpg" />
+    <Resource Include="Images\favo5.jpg" />
+    <Resource Include="Images\favo6.jpg" />
+    <Resource Include="Images\friedrice.jpg" />
+    <Resource Include="Images\instagram_icon.png" />
+    <Resource Include="Images\nasigoreng.jpg" />
+    <Resource Include="Images\noodles.jpg" />
+    <Resource Include="Images\Pizza.jpg" />
+    <Resource Include="Images\prown_salad.jpg" />
+    <Resource Include="Images\roti.jpg" />
+    <Resource Include="Images\soup.jpg" />
+    <Resource Include="Images\watsapp_icon.png" />
+    <Resource Include="Images\youtube_icon.png" />
+  </ItemGroup>
+
+</Project>
