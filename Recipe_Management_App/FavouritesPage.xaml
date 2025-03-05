@@ -24,67 +24,30 @@
                 </TextBlock>
 
             </Grid>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+            <ItemsControl ItemsSource="{Binding Favourites}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-           
-            
-                <StackPanel  Grid.Row="0" Grid.Column="0" Margin="260,80,0,0">
-                    <Image Source="Images/favo1.jpg" Height="250" Width="230" Stretch="UniformToFill"/>
-                    <TextBlock Text="Vegetable Cuttlets" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
-                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="60,10,60,0">
-                        <Button Content="Delete"  Padding="18,4" BorderThickness="0"  FontSize="16" Background="Transparent" Foreground="Black" Click="Delete_click"/>
-                    </Border>
-                </StackPanel>
-                <StackPanel Grid.Row="0" Grid.Column="1" Margin="20,80,0,0">
-                    <Image Source="Images/favo2.jpg" Height="250" Width="230" Stretch="Fill"/>
-                    <TextBlock Text="Mix Fried Rice" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
-                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="180,10,180,0">
-                        <Button Content="Delete"  Padding="18,4" BorderThickness="0"  FontSize="16" Background="Transparent" Foreground="Black" Click="Delete_click" />
-                    </Border>
-                </StackPanel>
-                <StackPanel Grid.Row="0" Grid.Column="2" Margin="0,80,250,50">
-                    <Image Source="Images/favo3.jpg" Height="250" Width="230" Stretch="Fill"/>
-                    <TextBlock Text="Chicken Kottu" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
-                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="65,10,65,0">
-                        <Button Content="Delete"  Padding="18,4" BorderThickness="0"  FontSize="16" Background="Transparent" Foreground="Black" Click="Delete_click" />
-                    </Border>
-                </StackPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="50" Width="230">
+                            <Image Source="{Binding Image}" Height="250" Width="230" Stretch="UniformToFill"/>
+                            <TextBlock Text="{Binding Name}" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
+                            <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="65,10,65,0">
+                                <Button Content="Delete" Padding="18,4" BorderThickness="0" FontSize="16" Background="Transparent" Foreground="Black"
+                                        Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=Page}}"
+                                        CommandParameter="{Binding Id}"/>
+
+                            </Border>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
                 
+            </ItemsControl>
             
-            
-                <StackPanel Grid.Row="1" Grid.Column="0" Margin="260,50,0,0">
-                    <Image Source="Images/favo4.jpg" Height="250" Width="230" Stretch="Fill"/>
-                    <TextBlock Text="Chicken Biryani" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
-                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="60,10,60,0">
-                        <Button Content="Delete"  Padding="18,4" BorderThickness="0"  FontSize="16" Background="Transparent" Foreground="Black" Click="Delete_click" />
-                    </Border>
-                </StackPanel>
-                <StackPanel Grid.Row="1" Grid.Column="1" Margin="20,50,0,0">
-                    <Image Source="Images/favo5.jpg" Height="250" Width="230" Stretch="Fill"/>
-                    <TextBlock Text="Sri Lankan Pittu" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
-                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="180,10,180,0">
-                        <Button Content="Delete"  Padding="18,4" BorderThickness="0"  FontSize="16" Background="Transparent" Foreground="Black" Click="Delete_click" />
-                    </Border>
-                </StackPanel>
-                <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,50,250,50">
-                    <Image Source="Images/favo6.jpg" Height="250" Width="230" Stretch="Fill"/>
-                    <TextBlock Text="String Hoppers" HorizontalAlignment="Center" FontSize="16" FontWeight="DemiBold" Margin="10"/>
-                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FFABE4BC" Margin="65,10,65,0">
-                        <Button Content="Delete"  Padding="18,4" BorderThickness="0"  FontSize="16" Background="Transparent" Foreground="Black" Click="Delete_click" />
-                    </Border>
-                </StackPanel>
-
-            
-            </Grid>
             <Grid Height="450" Background="#E2F7E2" >
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="80">
                     <TextBlock Text="Ready to start cooking?" FontSize="48" FontWeight="Bold" Foreground="Green" TextAlignment="Center"  />

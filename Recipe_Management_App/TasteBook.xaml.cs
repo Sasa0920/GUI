@@ -37,9 +37,6 @@ namespace Recipe_Management_App
         {
             ContentFrame.Navigate(new FavouritesPage());
         }
-        private void GetStartedButton(object sender, RoutedEventArgs e)
-        {
-            ContentFrame.Navigate(new GetStartedPage());
-        }
+        
     }
 }

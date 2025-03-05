@@ -48,6 +48,7 @@ namespace Recipe_Management_App
             Recipes.Clear();
             foreach(var recipe in recipescollections)
             {
+                Console.WriteLine($"Image URL : {recipe.Image}");
                 Recipes.Add(recipe);
             }
         }
@@ -57,6 +58,8 @@ namespace Recipe_Management_App
             {
                 await _connection.AddToFavourite_Async(recipe.Id);
                 MessageBox.Show($"{recipe.Name} added successfully!");
+
+                NavigationService?.Navigate(new FavouritesPage());
                     
             }
 

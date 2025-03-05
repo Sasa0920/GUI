@@ -20,12 +20,10 @@ C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\TasteBook.baml
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\CreateRecipePage.g.cs
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\FavouritesPage.g.cs
-C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\GetStartedPage.g.cs
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\HomePage.g.cs
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\MyRecipePage.g.cs
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\CreateRecipePage.baml
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\FavouritesPage.baml
-C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\GetStartedPage.baml
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\HomePage.baml
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\MyRecipePage.baml
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\Recipe_Management_App.csproj.AssemblyReference.cache
@@ -37,3 +35,4 @@ C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\bin\Debug\net8.0-windows\Snappier.dll
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\bin\Debug\net8.0-windows\ZstdSharp.dll
 C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\Recipe_M.F00C33D5.Up2Date
+C:\Users\sasan\OneDrive\Desktop\Desktop application\Recipe_Management_App\Recipe_Management_App\obj\Debug\net8.0-windows\Recipe_Management_App.sourcelink.json

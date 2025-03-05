@@ -13,9 +13,6 @@
     <Compile Update="FavouritesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="GetStartedPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="HomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,9 +25,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="FavouritesPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="GetStartedPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="HomePage.xaml">

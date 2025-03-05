@@ -13,39 +13,80 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
+using Recipe_Management_App;
 
 namespace Recipe_Management_App
 {
     /// <summary>
     /// Interaction logic for FavouritesPage.xaml
     /// </summary>
-    public partial class FavouritesPage : Page
+    public partial class FavouritesPage : Page,INotifyPropertyChanged
     {
-        private MongoDB_Connection _connection = new MongoDB_Connection();
-        public ObservableCollection<Recipe> Favourites { get; set; } = new ObservableCollection<Recipe>();
+        private readonly MongoDB_Connection _connection = new MongoDB_Connection();
+        
+        private ObservableCollection<Recipe> favorites;
+
+        public ObservableCollection<Recipe> Favourites
+        {
+            get { return favorites; }
+            set
+            {
+                favorites = value;
+                OnPropertyChanged(nameof(Favourites));
+            }
+        }
+
+        public ICommand DeleteCommand { get; }
+
         public FavouritesPage()
         {
             InitializeComponent();
             DataContext = this;
+
+            Favourites = new ObservableCollection<Recipe>();
+            DeleteCommand = new RecipeCommand(Delete_click);
+
             LoadFavourites();
         }
         private async void LoadFavourites()
         {
+           
             var favourite = await _connection.GetFavourteAsync();
-            Favourites.Clear();
-            foreach(var recipe in favourite)
+
+            if(favourite == null || !favourite.Any())
             {
-                Favourites.Add(recipe);
+                Console.WriteLine("No favourite recipes found");
+                return;
             }
-        }
-        private async void Delete_click(object sender, RoutedEventArgs e)
-        {
-            if(sender is Button button && button.DataContext is Recipe recipe)
+            Console.WriteLine($"Fetched {favourite.Count} favourites");
+            Application.Current.Dispatcher.Invoke(() =>
             {
-                await _connection.Delete_Async(recipe.Id);
-                MessageBox.Show($"{recipe.Name} removed successfully");
+                Favourites.Clear();
+                foreach (var recipe in favourite)
+                {
+                    Console.WriteLine($"{recipe.Name} (ID : {recipe.Id})");
+                    Favourites.Add(recipe);
+                }
+            });
+        }
+        private async void Delete_click(object index)
+        {
+           if(index is int recipeID)
+            {
+                await _connection.Delete_Async(recipeID);
+                var Removed = Favourites.FirstOrDefault(r=>r.Id == recipeID);
+                if(Removed != null)
+                {
+                    Favourites.Remove(Removed);
+                }
                 LoadFavourites();
             }
+        }
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string property_name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property_name));
         }
     }
 }

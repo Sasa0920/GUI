@@ -22,24 +22,25 @@ namespace Recipe_Management_App
         }
         public async Task<List<Recipe>> GetRecipesAsync()
         {
-            return await _recipes.Find(new BsonDocument()).ToListAsync();
+            return await _recipes.Find(new BsonDocument()).Limit(5).ToListAsync();
 
 
         }
         public async Task<List<Recipe>> GetFavourteAsync()
         {
-            return await _recipes.Find(r => r.IsFavourite == true).ToListAsync();
+            var filter = Builders<Recipe>.Filter.Eq(r => r.IsFavourite, true);
+            return await _recipes.Find(filter).ToListAsync();
         }
         public async Task AddToFavourite_Async(int RecipeId)
         {
-            //ObjectId ObjectId = new ObjectId(RecipeId);
+            
             var filter = Builders<Recipe>.Filter.Eq(r => r.Id, RecipeId);
             var update = Builders<Recipe>.Update.Set(r => r.IsFavourite, true);
             await _recipes.UpdateOneAsync(filter, update);
         }
         public async Task Delete_Async(int RecipeId)
         {
-            //ObjectId ObjectId = new ObjectId(RecipeId);
+            
             var filter=Builders<Recipe>.Filter.Eq(r=>r.Id, RecipeId);
             var update = Builders<Recipe>.Update.Set(r=>r.IsFavourite, false);
             await _recipes.UpdateOneAsync(filter,update);

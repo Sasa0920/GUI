@@ -27,6 +27,7 @@ namespace Recipe_Management_App
         [BsonElement("instructions")]
         public string? Preparation { get; set; }
         [BsonElement("favourite")]
+        [BsonIgnoreIfDefault(false)]
         public bool IsFavourite { get; set; }
 
         

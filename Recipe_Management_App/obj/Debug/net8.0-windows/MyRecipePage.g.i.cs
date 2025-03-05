@@ -53,7 +53,7 @@ namespace Recipe_Management_App {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Recipe_Management_App;V1.0.0.0;component/myrecipepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Recipe_Management_App;component/myrecipepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MyRecipePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
